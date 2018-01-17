@@ -21,7 +21,8 @@ function makeInt(a){
 }
 function parse(x, base){
   var parsed = parseInt(x, base);
-  
+   if (isNaN(parsed)) { return 0 }
+  return parsed * 100;
 }
 
 function preserveDecimal(a){
