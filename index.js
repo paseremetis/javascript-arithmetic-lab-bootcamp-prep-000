@@ -20,7 +20,7 @@ function makeInt(a){
   return a
 }
 function parse(x, base){
-  
+  var parsed = (x,base)
 }
 
 function preserveDecimal(a){
