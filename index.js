@@ -17,7 +17,8 @@ function dec(a){
   return (a - 1)
 }
 function makeInt(a){
-  parseInt('0', '2328')
+  parseInt('0', 10)
+  
   return a
 }
 function preserveDecimal(a){
