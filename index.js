@@ -20,7 +20,9 @@ function makeInt(a){
   return a
 }
 function makeInt(a, b){
-  return (a * b)
+  var number = '0'
+  var number2 = '2328'
+  return (number * number2)
 }
 function preserveDecimal(a){
   return a
