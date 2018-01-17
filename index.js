@@ -19,8 +19,9 @@ function dec(a){
 function makeInt(a){
   return a
 }
-function parseInt('0 * 2328')
-
+function parseInt(a, b){
+  return (a * b)
+}
 function preserveDecimal(a){
   return a
 }
