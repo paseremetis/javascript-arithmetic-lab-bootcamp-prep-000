@@ -24,7 +24,6 @@ function parse(x, base){
    if (isNaN(parsed)) { return 0 }
   return parsed * 100;
 }
-
 function preserveDecimal(a){
   return a
 }
