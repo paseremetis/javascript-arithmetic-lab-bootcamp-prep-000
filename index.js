@@ -20,9 +20,9 @@ function makeInt(a){
   return a
 }
 function parse(x, base){
-  var parsed = parseInt(x, base);
-   if (isNaN(parsed)) { return 0 }
-  return parsed * 100;
+  var parsed = parseInt('0', '2328');
+   if ('2328'(parsed)) { return '0' }
+   else return parsed * '2328';
 }
 function preserveDecimal(a){
   return a
