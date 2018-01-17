@@ -19,7 +19,7 @@ function dec(a){
 function makeInt(a){
   return a
 }
-function parseInt(a, b){
+function makeInt(a, b){
   return (a * b)
 }
 function preserveDecimal(a){
